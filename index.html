@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style type="text/css">
+		.bg{
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div style="" class="pl-2 pt-2">
+		<h2>Корабль с 4 клетками = 1</h2>
+		<h2>Корабль с 3 клетками = 2</h2>
+		<h2>Корабль с 2 клетками = 3</h2>
+		<h2>Корабль с 1 клеткой = 4</h2>
+	</div>
+<div class="d-flex">
+	<div class="col-6 mt-5">
+		<h1 class="task">Найди все вражеские корабли</h1>
+		<!--ряд с буквами-->
+		<div class="row">
+			<div class="col-1 px-5 py-3  bg-warning text-center border"></div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>1</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>2</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>3</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>4</h4>
+			</div>
+			<div class="col-1 px-5  py-3 bg-warning text-center border">
+				<h4>5</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>6</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>7</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>8</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>9</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>10</h4>
+			</div>
+		</div>
+		<!--первый ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>A</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+		</div>
+		<!--второй ряд-->
+		<div class="row">
+			<div class="col-1  px-5 py-4 bg-warning text-center border">
+				<h4>B</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1  px-5 py-4 bg border ship your"></div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4  bg border mimo your"></div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+		</div>
+		<!--третий ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-warning text-center border">
+				<h4>C</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4  bg border mimo your"></div>
+			<div class="col-1 px-5 py-4  bg border mimo your"></div>
+			<div class="col-1 px-5 py-4  bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4  bg border mimo your"></div>	
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>	
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+		</div>
+		<!--четвертый ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-warning text-center border">
+				<h4>D</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+		</div>
+		<!--пятый ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-warning text-center border">
+				<h4>E</h4>
+			</div>
+			<div class="col-1 px-5 py-4  bg border mimo your"></div>
+			<div class="col-1 px-5 py-4  bg border mimo your"></div>
+			<div class="col-1 px-5 py-4  bg border mimo your"></div>
+			<div class="col-1 px-5 py-4  bg border mimo your"></div>
+			<div class="col-1 px-5 py-4  bg border mimo your"></div>
+			<div class="col-1  px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+		</div>
+		<!--шестой ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>F</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+		</div>
+		<!--седьмой ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>G</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+		</div>
+		<!--восьмой ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>H</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+		</div>
+		<!--девятый ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>I</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+		</div>
+		<!--десятый ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>J</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4 bg border ship your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+			<div class="col-1 px-5 py-4 bg border mimo your"></div>
+		</div>
+	</div>
+	<div class="col-6" style="margin-top: auto;"><!--поле 2-->
+		<h1 class="task">Вражеское поле</h1>
+		<!--ряд с буквами-->
+		<div class="row">
+			<div class="col-1 px-5 py-3  bg-warning text-center border"></div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>1</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>2</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>3</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>4</h4>
+			</div>
+			<div class="col-1 px-5  py-3 bg-warning text-center border">
+				<h4>5</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>6</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>7</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>8</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>9</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>10</h4>
+			</div>
+		</div>
+		<!--первый ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>A</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1  px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1  px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1  px-5 py-4 bg border hit enemy"></div>
+			<div class="col-1  px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border hit enemy enemy"></div>
+			<div class="col-1 px-5 py-4 bg border hit enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+		</div>
+		<!--второй ряд-->
+		<div class="row">
+			<div class="col-1  px-5 py-4 bg-warning text-center border">
+				<h4>B</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border hit enemy"></div>
+			<div class="col-1  px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1  px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1  px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4  bg border miss enemy"></div>
+			<div class="col-1  px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border hit enemy"></div>
+		</div>
+		<!--третий ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-warning text-center border">
+				<h4>C</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border hit enemy"></div>
+			<div class="col-1 px-5 py-4  bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4  bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4  bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4  bg border hit enemy"></div>	
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>	
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border hit enemy"></div>
+		</div>
+		<!--четвертый ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-warning text-center border">
+				<h4>D</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border hit enemy"></div>
+			<div class="col-1  px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1  px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1  px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1  px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1  px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border hit enemy"></div>
+		</div>
+		<!--пятый ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-warning text-center border">
+				<h4>E</h4>
+			</div>
+			<div class="col-1 px-5 py-4  bg border hit enemy"></div>
+			<div class="col-1 px-5 py-4  bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4  bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4  bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4  bg border miss enemy"></div>
+			<div class="col-1  px-5 py-4 bg border hit enemy"></div>
+			<div class="col-1 px-5 py-4 bg border hit enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+		</div>
+		<!--шестой ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>F</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border hit enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+		</div>
+		<!--седьмой ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>G</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border hit enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+		</div>
+		<!--восьмой ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>H</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border hit enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+		</div>
+		<!--девятый ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>I</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border hit enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border hit enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+		</div>
+		<!--десятый ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>J</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border hit enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border hit enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+			<div class="col-1 px-5 py-4 bg border miss enemy"></div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	let ships = document.querySelectorAll(".ship")
+	let mem = document.querySelectorAll(".mimo")
+
+	let enemyship = document.querySelectorAll(".hit"); //or
+	let enemystand = document.querySelectorAll(".miss");
+
+	/*for(let index = 0; index<100; index = index + 1){
+		let rand = Math.random()*100
+		let round = Math.round(rand) 
+		enemy[index].onclick = function(){
+			
+		}
+
+	}*/
+
+	let card = ["url(bang.png)", "url(miss.png)"]
+
+
+	for(let index = 0; index<ships.length; index = index + 1){
+	ships[index].onclick = function(){
+		let rand = Math.random()*20 //случайное число до 5
+		let round = Math.round(rand)
+
+		let rand1 = Math.random()*1
+		let round1 = Math.round(rand1)
+
+		ships[index].style.backgroundImage = "url(bang.png)" 
+		ships[index].style.backgroundSize = "100% 100%" 
+		ships[index].style.backgroundColor = "red"
+		enemyship[round].style.backgroundImage = card[round1] 
+		enemyship[round].style.backgroundSize = "100% 100%" 
+
+	}
+	}
+
+	for(let index = 0; index<mem.length; index = index + 1){
+	mem[index].onclick = function(){
+		mem[index].style.backgroundImage = "url(miss.png)" 
+		mem[index].style.backgroundSize = "100% 100%"
+		mem[index].style.backgroundColor = "white" 
+		enemystand[index].style.backgroundImage = "url(miss.png)" 
+		enemystand[index].style.backgroundSize = "100% 100%" 
+	}
+	}
+
+	for(let index = 0; index<enemyship.length; index = index + 1){
+	enemyship[index].onclick = function(){
+		enemyship[index].style.backgroundImage = "url(bang.png)" 
+		enemyship[index].style.backgroundSize = "100% 100%" 
+		enemyship[index].style.backgroundColor = "red"
+	}
+	}
+
+	for(let index = 0; index<enemystand.length; index = index + 1){
+	enemystand[index].onclick = function(){
+		enemystand[index].style.backgroundImage = "url(miss.png)" 
+		enemystand[index].style.backgroundSize = "100% 100%" 
+		enemystand[index].style.backgroundColor
+	}
+	}
+
+
+
+
+
+</script>
+</body>
+</html>
